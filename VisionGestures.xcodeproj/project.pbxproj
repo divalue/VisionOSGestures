@@ -12,6 +12,15 @@
 		281DF56D2AEEA4460049D1B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DF56C2AEEA4460049D1B9 /* ContentView.swift */; };
 		281DF56F2AEEA4470049D1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281DF56E2AEEA4470049D1B9 /* Assets.xcassets */; };
 		281DF5722AEEA4470049D1B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281DF5712AEEA4470049D1B9 /* Preview Assets.xcassets */; };
+		28C029A42B13B124006C4CB6 /* CubeTapGestureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029A32B13B124006C4CB6 /* CubeTapGestureDetailView.swift */; };
+		28C029A62B13B14C006C4CB6 /* CubeSpatialTapGestureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029A52B13B14C006C4CB6 /* CubeSpatialTapGestureDetailView.swift */; };
+		28C029A82B13B154006C4CB6 /* CubeLongPressGestureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029A72B13B154006C4CB6 /* CubeLongPressGestureDetailView.swift */; };
+		28C029AA2B13B15E006C4CB6 /* CubeSpatialEventGestureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029A92B13B15E006C4CB6 /* CubeSpatialEventGestureDetailView.swift */; };
+		28C029AC2B13B167006C4CB6 /* CubeDragGestureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029AB2B13B167006C4CB6 /* CubeDragGestureDetailView.swift */; };
+		28C029AE2B13B179006C4CB6 /* CubeMagnifyGestureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029AD2B13B179006C4CB6 /* CubeMagnifyGestureDetailView.swift */; };
+		28C029B02B13B183006C4CB6 /* CubeRotateGestureDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029AF2B13B183006C4CB6 /* CubeRotateGestureDetailView.swift */; };
+		28C029B22B13B18A006C4CB6 /* CubeRotateGesture3DDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029B12B13B18A006C4CB6 /* CubeRotateGesture3DDetailView.swift */; };
+		28C029B42B13B1B9006C4CB6 /* CubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C029B32B13B1B9006C4CB6 /* CubeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		281DF56E2AEEA4470049D1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		281DF5712AEEA4470049D1B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		281DF5732AEEA4470049D1B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C029A32B13B124006C4CB6 /* CubeTapGestureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeTapGestureDetailView.swift; sourceTree = "<group>"; };
+		28C029A52B13B14C006C4CB6 /* CubeSpatialTapGestureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeSpatialTapGestureDetailView.swift; sourceTree = "<group>"; };
+		28C029A72B13B154006C4CB6 /* CubeLongPressGestureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeLongPressGestureDetailView.swift; sourceTree = "<group>"; };
+		28C029A92B13B15E006C4CB6 /* CubeSpatialEventGestureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeSpatialEventGestureDetailView.swift; sourceTree = "<group>"; };
+		28C029AB2B13B167006C4CB6 /* CubeDragGestureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeDragGestureDetailView.swift; sourceTree = "<group>"; };
+		28C029AD2B13B179006C4CB6 /* CubeMagnifyGestureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeMagnifyGestureDetailView.swift; sourceTree = "<group>"; };
+		28C029AF2B13B183006C4CB6 /* CubeRotateGestureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeRotateGestureDetailView.swift; sourceTree = "<group>"; };
+		28C029B12B13B18A006C4CB6 /* CubeRotateGesture3DDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeRotateGesture3DDetailView.swift; sourceTree = "<group>"; };
+		28C029B32B13B1B9006C4CB6 /* CubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,8 @@
 			children = (
 				281DF56A2AEEA4460049D1B9 /* VisionGesturesApp.swift */,
 				281DF56C2AEEA4460049D1B9 /* ContentView.swift */,
+				28C029B32B13B1B9006C4CB6 /* CubeView.swift */,
+				28C029A22B13B112006C4CB6 /* GestureViews */,
 				281DF56E2AEEA4470049D1B9 /* Assets.xcassets */,
 				281DF5732AEEA4470049D1B9 /* Info.plist */,
 				281DF5702AEEA4470049D1B9 /* Preview Content */,
@@ -79,6 +99,21 @@
 				281DF5712AEEA4470049D1B9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28C029A22B13B112006C4CB6 /* GestureViews */ = {
+			isa = PBXGroup;
+			children = (
+				28C029A32B13B124006C4CB6 /* CubeTapGestureDetailView.swift */,
+				28C029A52B13B14C006C4CB6 /* CubeSpatialTapGestureDetailView.swift */,
+				28C029A72B13B154006C4CB6 /* CubeLongPressGestureDetailView.swift */,
+				28C029A92B13B15E006C4CB6 /* CubeSpatialEventGestureDetailView.swift */,
+				28C029AB2B13B167006C4CB6 /* CubeDragGestureDetailView.swift */,
+				28C029AD2B13B179006C4CB6 /* CubeMagnifyGestureDetailView.swift */,
+				28C029AF2B13B183006C4CB6 /* CubeRotateGestureDetailView.swift */,
+				28C029B12B13B18A006C4CB6 /* CubeRotateGesture3DDetailView.swift */,
+			);
+			path = GestureViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C029A42B13B124006C4CB6 /* CubeTapGestureDetailView.swift in Sources */,
+				28C029A62B13B14C006C4CB6 /* CubeSpatialTapGestureDetailView.swift in Sources */,
+				28C029B02B13B183006C4CB6 /* CubeRotateGestureDetailView.swift in Sources */,
+				28C029B42B13B1B9006C4CB6 /* CubeView.swift in Sources */,
 				281DF56D2AEEA4460049D1B9 /* ContentView.swift in Sources */,
 				281DF56B2AEEA4460049D1B9 /* VisionGesturesApp.swift in Sources */,
+				28C029AA2B13B15E006C4CB6 /* CubeSpatialEventGestureDetailView.swift in Sources */,
+				28C029A82B13B154006C4CB6 /* CubeLongPressGestureDetailView.swift in Sources */,
+				28C029AE2B13B179006C4CB6 /* CubeMagnifyGestureDetailView.swift in Sources */,
+				28C029B22B13B18A006C4CB6 /* CubeRotateGesture3DDetailView.swift in Sources */,
+				28C029AC2B13B167006C4CB6 /* CubeDragGestureDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
