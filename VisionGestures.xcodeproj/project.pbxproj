@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		281DF5692AEEA4460049D1B9 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 281DF5682AEEA4460049D1B9 /* RealityKitContent */; };
 		281DF56B2AEEA4460049D1B9 /* VisionGesturesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DF56A2AEEA4460049D1B9 /* VisionGesturesApp.swift */; };
 		281DF56D2AEEA4460049D1B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281DF56C2AEEA4460049D1B9 /* ContentView.swift */; };
 		281DF56F2AEEA4470049D1B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281DF56E2AEEA4470049D1B9 /* Assets.xcassets */; };
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		281DF5632AEEA4460049D1B9 /* VisionGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		281DF5672AEEA4460049D1B9 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		281DF56A2AEEA4460049D1B9 /* VisionGesturesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionGesturesApp.swift; sourceTree = "<group>"; };
 		281DF56C2AEEA4460049D1B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		281DF56E2AEEA4470049D1B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				281DF5692AEEA4460049D1B9 /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 		281DF5662AEEA4460049D1B9 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				281DF5672AEEA4460049D1B9 /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -133,7 +129,6 @@
 			);
 			name = VisionGestures;
 			packageProductDependencies = (
-				281DF5682AEEA4460049D1B9 /* RealityKitContent */,
 			);
 			productName = VisionGestures;
 			productReference = 281DF5632AEEA4460049D1B9 /* VisionGestures.app */;
@@ -397,13 +392,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		281DF5682AEEA4460049D1B9 /* RealityKitContent */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RealityKitContent;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 281DF55B2AEEA4460049D1B9 /* Project object */;
 }
